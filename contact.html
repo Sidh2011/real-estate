@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankush Estate</title>
+  <style>
+ 
+        .outer_box{
+            width: 100%;
+            height: 100px;
+            background-color: yellow;
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .left_box{
+            width: 100px;
+            height: 100px;
+        }
+
+        .right_box{
+            width: 600px;
+            height:100px;
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+         border-radius: 50px;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            list-style-type: none;
+        }
+
+        li{
+            background-color: orange;
+            padding:10px;
+            border-radius: 140px;
+        }
+  </style>
+   <style>
+    .outer-box {
+        width: 100%;
+        height: 100vh;
+        /* background:linear-gradient(to right top ,rgb(41, 216, 232) , purple); */
+        background: linear-gradient(to right top, #CF3BF3, #66DCDD);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-box {
+        width: 400px;
+        height: 500px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .wrap {
+        border-bottom: 2px solid gray;
+    }
+
+    input {
+        padding: 5px 0px;
+        border: none
+    }
+
+    .forget {
+        text-align: right;
+    }
+
+    .login-btn {
+        width: 300px;
+        background: linear-gradient(to right, skyblue, blue, indigo);
+        color: white;
+        padding: 13px 20px;
+        border-radius: 21px;
+    }
+
+    .login-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .center{
+text-align: center;       }
+.icon-wrap{
+display: flex;
+justify-content: center;
+}
+.icon-wrap  svg{
+margin: 7px;
+}
+</style>
+</head>
+<body>
+    <div class="outer_box">
+
+        <div class="left box">
+            <img src="./pexels-brian-penny-13620067.jpg">
+  
+        </div>
+        <div class="right_box">
+            <ul>
+                <a href="./index.html"> <li> Home</li></a>  
+                <a href="./real_estate.html"> <li> Real Estates</li></a> 
+                <a href="./about.html"> <li> About</li></a> 
+                <a href="./contact.html"> <li> Contact</li></a> 
+            
+             
+                <!-- <audio controls
+                    <source> src="./Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3"></source>
+                </audio> -->
+
+
+
+
+            </ul>
+        </div>
+</div> 
+<div class="home">
+    <div class="box">
+ <!-- How to create a box? -->
+
+ <div class="outer-box">
+
+    <div class="inner-box">
+
+        <form action="">
+            <h1>Contact</h1>
+            <h4>Name</h4>
+            <div class="wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-person" viewBox="0 0 16 16">
+                    <path
+                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                </svg>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <h4>message</h4>
+            <div class="wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-text" viewBox="0 0 16 16">
+                    <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                    <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                <input type="password" placeholder="Enter your message">
+            </div>
+            <h4 class="forget"></h4>
+            <div class="login-wrap">
+
+                <input type="submit" value="Submit Message" class="login-btn">
+            </div>
+            <h4 class="center"> OR SUB TO ME ON YOUTUBE FOR PRIORITY SERVICE </h4>
+            <div class="icon-wrap">
+
+             
+                  <svg xmlns="<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                  </svg>
+                  </svg>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+
+    </div>
+</div>
+
+
+</body>
+</html> 
